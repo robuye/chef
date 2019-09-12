@@ -1,0 +1,7 @@
+version: '3'
+services:
+  chef-buildkite-win:
+      image: chefes/buildkite-windows
+      volumes:
+        - .:/workdir
+      working_dir: /workdir
